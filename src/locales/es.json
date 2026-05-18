@@ -1,0 +1,9 @@
+{
+  "home": { "title": "Inicio", "welcome": "Bienvenido a BBVA Peru", "branches": "Agencias Registradas" },
+  "attention": { "title": "Registro de Atenciones", "ticketLabel": "Identificador de Ticket",
+    "registerIn": "Registrar", "invalid": "Identificador de Ticket Inválido",
+    "alreadyRegistered": "Ya Registrado" },
+  "branch": { "capacity": "Capacidad", "address": "Dirección", "openedAt": "Aperturado",
+    "registeredAttention": "Atenciones Registradas", "attentionPct": "Porcentaje %" },
+  "nav": { "home": "Inicio", "attentions": "Atenciones" }
+}

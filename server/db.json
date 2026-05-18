@@ -1,0 +1,70 @@
+{
+  "branches": [
+    {
+      "id": 1,
+      "name": "Agencia Miraflores",
+      "description": "Agencia principal en Miraflores",
+      "address": "Av. Larco 123, Miraflores",
+      "capacity": 50,
+      "openedAt": "2020-01-15"
+    },
+    {
+      "id": 2,
+      "name": "Agencia San Isidro",
+      "description": "Agencia en el centro financiero",
+      "address": "Av. Javier Prado 456, San Isidro",
+      "capacity": 40,
+      "openedAt": "2019-03-20"
+    },
+    {
+      "id": 3,
+      "name": "Agencia Surco",
+      "description": "Agencia en Santiago de Surco",
+      "address": "Av. Primavera 789, Surco",
+      "capacity": 35,
+      "openedAt": "2021-06-10"
+    }
+  ],
+  "attentions": [
+    {
+      "id": 1,
+      "firstName": "Carlos",
+      "lastName": "García",
+      "branchId": 1,
+      "ticketIdentifier": "TK001",
+      "registerInAt": "2026-05-18T01:13:46.907Z"
+    },
+    {
+      "id": 2,
+      "firstName": "María",
+      "lastName": "López",
+      "branchId": 1,
+      "ticketIdentifier": "TK002",
+      "registerInAt": "2025-05-17T10:00:00.000Z"
+    },
+    {
+      "id": 3,
+      "firstName": "Juan",
+      "lastName": "Pérez",
+      "branchId": 2,
+      "ticketIdentifier": "TK003",
+      "registerInAt": null
+    },
+    {
+      "id": 4,
+      "firstName": "Ana",
+      "lastName": "Torres",
+      "branchId": 2,
+      "ticketIdentifier": "TK004",
+      "registerInAt": null
+    },
+    {
+      "id": 5,
+      "firstName": "Luis",
+      "lastName": "Ramírez",
+      "branchId": 3,
+      "ticketIdentifier": "TK005",
+      "registerInAt": null
+    }
+  ]
+}

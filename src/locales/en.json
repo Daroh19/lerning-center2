@@ -1,0 +1,9 @@
+{
+  "home": { "title": "Home", "welcome": "Welcome to BBVA Peru", "branches": "Registered Branches" },
+  "attention": { "title": "Branch Attention Registry", "ticketLabel": "Ticket Identifier",
+    "registerIn": "Register-In", "invalid": "Invalid Ticket Identifier",
+    "alreadyRegistered": "Already Register-In" },
+  "branch": { "capacity": "Capacity", "address": "Address", "openedAt": "Opened At",
+    "registeredAttention": "Registered Attention", "attentionPct": "Attention %" },
+  "nav": { "home": "Home", "attentions": "Attentions" }
+}
