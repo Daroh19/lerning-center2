@@ -53,6 +53,8 @@ json-server --watch db.json --port 3400
 ```
 
 ###Structure
+
+```sh
 u4364u202317338/
 ├── server/
 │   └── db.json
@@ -102,3 +104,4 @@ u4364u202317338/
 ├── index.html
 ├── package.json
 └── vite.config.js
+```
