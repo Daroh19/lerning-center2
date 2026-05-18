@@ -51,3 +51,54 @@ npm install -g json-server@0.17.4
 cd server
 json-server --watch db.json --port 3400
 ```
+
+###Structure
+u4364u202317338/
+├── server/
+│   └── db.json
+├── src/
+│   ├── assets/
+│   │   └── bbva-logo.svg
+│   ├── registration/              ← dominio principal
+│   │   ├── application/
+│   │   │   └── registration.store.js  (si usas pinia, sino omitir)
+│   │   ├── domain/
+│   │   │   ├── branch.entity.js
+│   │   │   └── attention.entity.js
+│   │   ├── infrastructure/
+│   │   │   ├── registration-api.js    ← base URL axios
+│   │   │   ├── branch.assembler.js
+│   │   │   ├── branch.service.js  (o branch-api.js)
+│   │   │   ├── attention.assembler.js
+│   │   │   └── attention.service.js
+│   │   └── presentation/
+│   │       ├── components/
+│   │       │   └── branch-summary.component.vue
+│   │       ├── views/
+│   │       │   ├── home.component.vue
+│   │       │   └── branch-attention-registry.component.vue
+│   │       └── registration-routes.js
+│   ├── shared/
+│   │   ├── infrastructure/
+│   │   │   ├── base-api.js
+│   │   │   └── base-endpoint.js
+│   │   └── presentation/
+│   │       ├── components/
+│   │       │   ├── app-header.component.vue
+│   │       │   └── language-switcher.component.vue
+│   │       └── views/
+│   │           ├── home.component.vue  ← vista raíz
+│   │           └── page-not-found.component.vue
+│   ├── locales/
+│   │   ├── en.json
+│   │   └── es.json
+│   ├── app.vue
+│   ├── i18n.js
+│   ├── main.js
+│   └── router.js
+├── .env.development
+├── .env.production
+├── README.md
+├── index.html
+├── package.json
+└── vite.config.js
